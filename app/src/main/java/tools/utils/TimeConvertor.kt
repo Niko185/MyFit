@@ -28,6 +28,5 @@ object TimeConvertor {
     }
 
     fun new() {
-
     }
 }
