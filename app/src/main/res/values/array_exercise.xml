@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="exercise">
+        <item>Relax time|20|relax_cat.gif</item>
+        <item>Head stretching|20|head_one.gif</item>
+        <item>Shoulder stretching|25|shoulder_two.gif</item>
+        <item>Loin stretching|20|loin_three.gif</item>
+        <item>Loin strong stretching|25|loin_four.gif</item>
+        <item>Pelvis stretching|20|pelvis_five.gif</item>
+        <item>Back stretching|x15|back_six.gif</item>
+        <item>Feet stretching|25|feet_seven.gif</item>
+        <item>Back strong stretching|x15|back_eight.gif</item>
+        <item>Feet strong stretching|x15|stretch_feet_nine.gif</item>
+    </string-array>
+</resources>

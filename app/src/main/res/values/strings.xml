@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyFit</string>
+    <string name="slogan">Just do it!</string>
+    <string name="progress_bar_text">10 day to finish</string>
+    <string name="view_tv_text_number_day_exercises">Starting training day</string>
+    <string name="view_tv_text_count_day_exercises">Practice -</string>
+    <string name="view_tv_text_count_day_exercises_2">exercises</string>
+    <string name="timer_text">Ready!</string>
+    <string name="button_text_second_fragment">Starting complex exercises</string>
+    <string name="next_exercise">Next</string>
+    <string name="show_next_exercise">Next exercises this: </string>
+    <string name="four_text_bottom">Great Job!</string>
+    <string name="five_button_text">Complete Complex</string>
+    <string name="five_action_bar_text">Congratulation</string>
+    <string name="second_action_bar_text">Complex</string>
+    <string name="three_action_bar_text">Start timer</string>
+    <string name="four_action_bar_text_one">Complete exercises:</string>
+    <string name="first_bar_name">Days to finish</string>
+    <string name="menu">Delete Progress</string>
+    <string name="alert_tittle">Attention!</string>
+    <string name="alert_positive">Yes</string>
+    <string name="alert_negative">No</string>
+    <string name="alert_message">Delete all progress?</string>
+    <string name="alert_message_day">Delete progress this day and start day again?</string>
+
+    <string name="two_fragment_text_limit">seconds</string>
+    <string name="two_fragment_text_limit_x">repeat</string>
+
+</resources>

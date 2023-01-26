@@ -1,0 +1,79 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_background_RCV_"
+    tools:context="app.fragments.FirstDaysFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fFirstRcView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/material_background_RCV_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardView" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardElevation="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/material_light_green">
+
+            <TextView
+                android:id="@+id/fFirstSlogan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/montserrat_alternates_light"
+                android:gravity="center"
+                android:text="@string/slogan"
+                android:textColor="@color/material_text_color_black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/fFirstProgressDay"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ProgressBar
+                android:id="@+id/fFirstProgressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:progress="50"
+                android:progressTint="@color/material_progress_bar_"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/fFirstSlogan"
+                app:layout_constraintStart_toStartOf="@+id/fFirstSlogan" />
+
+            <TextView
+                android:id="@+id/fFirstProgressDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_alternates_light"
+                android:text="@string/progress_bar_text"
+                android:textColor="@color/material_text_color_black"
+                app:layout_constraintBottom_toTopOf="@+id/fFirstProgressBar"
+                app:layout_constraintEnd_toEndOf="@+id/fFirstProgressBar"
+                app:layout_constraintStart_toStartOf="@+id/fFirstProgressBar" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
