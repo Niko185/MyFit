@@ -25,4 +25,8 @@ object TimeConvertor {
     fun deleteTime(){
 
     }
+
+    fun new() {
+
+    }
 }
