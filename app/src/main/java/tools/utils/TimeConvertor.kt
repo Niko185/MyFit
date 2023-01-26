@@ -20,6 +20,9 @@ object TimeConvertor {
 
     fun showTime() {
         val x = 0
+    }
+
+    fun deleiteTime(){
 
     }
 }
