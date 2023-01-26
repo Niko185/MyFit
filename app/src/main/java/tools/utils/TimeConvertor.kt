@@ -17,4 +17,8 @@ object TimeConvertor {
         calendar.timeInMillis = timeM
         return formatTime.format(calendar.time)
     }
+
+    fun showTime() {
+
+    }
 }
