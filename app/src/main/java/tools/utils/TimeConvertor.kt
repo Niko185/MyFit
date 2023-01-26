@@ -22,7 +22,7 @@ object TimeConvertor {
         val x = 0
     }
 
-    fun deleiteTime(){
+    fun deleteTime(){
 
     }
 }
