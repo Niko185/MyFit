@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/material_light_green"
-    tools:context="app.starting.SplashScreenActivity">
+    tools:context="myfit.activity.SplashScreenActivity">
 
     <TextView
         android:id="@+id/splashTextName"
