@@ -10,6 +10,7 @@ Educational project.
 
 ## Technologies stack
 - Kotlin
+- Git
 - Fragments
 - ViewModel
 - Glide
